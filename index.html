@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>饰品过渡</title>
+<link rel="stylesheet" type="text/css" href="csssheet/StyleSheet.css">
+<link type="text/javascript" 
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<div id = "mainLook"> <!--The main div-->
+		<div id = "statusOnTop">   
+			<div id = "obtainAPendent">
+				<form id="pendentSelecter">
+					<select id="pendent_add" name="addPendent">
+						<option hidden="1"><a class="fontOfMeterials">在这里选择添加</a></option>
+						<option class="fontOfPendent_new" value="eliteNightmareEarring">传说梦魇耳环</option>
+						<option class="fontOfPendent_new" value="eliteNightmareNecklace">传说梦魇项链</option>
+						<option class="fontOfPendent_new" value="eliteNightmareBangle">传说梦魇手镯</option>
+						<option class="fontOfPendent_new" value="elitrNightmareRing">传说梦魇戒指</option>
+						<option class="fontOfPendent_new" value="eliteNightmareBadge">传说梦魇徽章</option>
+						<option class="fontOfPendent_new" value="eliteNightmareBelt">传说梦魇腰带</option>
+					</select>
+				</form>
+			</div>
+			<div id = "obtainMeterials">
+				<div id="addDust">
+					<div class="meterials_add"><a class="fontOfMeterials">秘術之尘</a></div>
+					<div class="button_addMeterials">
+						<form>
+							<button id="dust_add" value="dust_add">
+								<a class="fontOfDigatal">+100</a>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div id="addStar">
+					<div class="meterials_add"><a class="fontOfMeterials">秘術之星</a></div>
+					<div class="button_addMeterials">
+						<form>
+							<button id="star_add" value="star_add">
+								<a class="fontOfDigatal">+100</a>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div id="addElite">
+					<div class="meterials_add"><a class="fontOfMeterials">奧秘精華</a></div>
+					<div class="button_addMeterials">
+						<form>
+							<button id="elite_add" value="elite_add">
+								<a class="fontOfDigatal">+100</a>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div  id="addProtectSpell">
+					<div class="meterials_addSpell"><a class="fontOfMeterials">保護符</a></div>
+					<div class="button_addMeterials">
+						<form>
+							<button id="protectSpell_add" value="protectSpell_add">
+								<a class="fontOfDigatal">+100</a>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		<div id = "pendent">
+			<div id = "pendentOnWearing">
+				<div class = "coloumn">
+					<div class = "pendentItem">
+					</div>
+					<div class = "pendentItem">
+					</div>
+					<div class = "pendentItem">
+					</div>
+				</div>
+				<div class = "coloumn">
+					<div class = "pendentItem">
+					</div>
+					<div class = "pendentItem">
+					</div>
+					<div class = "pendentItem">
+					</div>
+				</div>
+				<div class="magicResistence">
+					<div><a class="fontOfMagicResistence">抗魔：<text id="value_magicResistence">0</text></a></div>
+				</div>
+			</div>
+			<div id = "pendentOnFree">
+				<div class = "coloumn">
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+				</div>
+				<div class = "coloumn">
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+				</div>
+				<div class = "coloumn">
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+				</div>
+				<div class = "coloumn">
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+				</div>
+				<div class = "coloumn">
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+					<div class = "pendentItem_type2"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id = "statusOnBottom">
+			<div id = "restOfMeterials"><br>
+				<div id = "dust"><a class="fontOfMeterials">秘術之尘：<text id = "restValue_dust">0</text></a></div>
+				<div id = "star"><a class="fontOfMeterials">秘術之星：<text id = "restValue_star">0</text></a></div>
+				<div id = "elite"><a class="fontOfMeterials">奧秘精華：<text id = "restValue_elite">0</text></a></div>
+				<div id = "protectSpell"><a class="fontOfMeterials">保護符：<text id = "restValue_protectSpell">0</text></a></div>
+			</div>
+			<div id = "displayStrength">
+				<a id="fontOfStrength">当前战力加成：<text id = "value_strength">0</text></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
